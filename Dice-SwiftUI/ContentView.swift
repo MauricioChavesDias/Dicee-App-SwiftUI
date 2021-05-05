@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    //@State keyword allows to change values in the Structs managed by SwiftUI
+    //It lets SwiftUI knows which view on the screen need to be updated.
     @State var leftDiceNumber = 1
     @State var rightDiceNumber = 1
     
@@ -40,8 +41,6 @@ struct ContentView: View {
                 .background(Color.red)
                 Spacer()
             }
-                
-            
         }
       
     }
